@@ -1,0 +1,19 @@
+<html>
+<head>
+
+    <title>Marks Prediction</title>
+</head>
+<body>
+<H1>Marks Prediction</H1>
+<form method="POST" action="/">
+<input type ="text" name="hours" placeholder="No of Hours">
+<input type="submit">
+</form>
+
+{%if your_marks %}
+    <h1> Your marks are : <i> {{your_marks}}</i></h1>
+{% endif %}
+</body>
+
+
+</html>
